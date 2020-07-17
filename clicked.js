@@ -1,3 +1,3 @@
 function click(){
-document.getElementById("something something");
+document.getElementById("main").innerHTML = "somethingsomething";
 }
