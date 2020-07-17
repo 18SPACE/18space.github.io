@@ -1,4 +1,4 @@
-function click(title){  
+function click(){  
  
  alert("Working");
  if (title = ausspoc){
@@ -20,3 +20,7 @@ function click(title){
 # else if (title == " "){}
 # else{x.innerHTML = "Sentinel Participants Active Communications Enterprise";}
 }  
+ function ausspocClick() {
+  document.getElementById("main").innerHTML = "AUSSPOC";
+  alert("You cliked AUSSPOC");
+ }
