@@ -1,4 +1,8 @@
-function click(){  
+function click(){
+ document.getElementById("main").innerHTML = "AUSSPOC"; 
+}
+
+function aclick(){  
  
  alert("Working");
  if (title = ausspoc){
