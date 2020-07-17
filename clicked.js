@@ -1,3 +1,3 @@
 function click(){  
- alert("Hello Javatpoint");  
+ document.getElementById("main").innerHTML = "AUSSPOC"; 
 }  
