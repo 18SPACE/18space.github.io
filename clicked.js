@@ -1,6 +1,11 @@
 function click(title){  
  
  alert("Working");
+ if (title = ausspoc){
+ document.getElementById("main").innerHTML = "AUSSPOC";}
+ else{
+  document.getElementById("main").innerHTML = "nothing to print";
+ }
  
 # x = document.getElementById("main");
 # if (title == "ausspoc"){x.innerHTML = "AUSSPOC";}
