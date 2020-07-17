@@ -1,3 +1,3 @@
 function click(){
- alert("alerted");
+document.getElementById("something something");
 }
