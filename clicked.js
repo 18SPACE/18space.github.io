@@ -20,6 +20,7 @@ function click(){
 # else if (title == " "){}
 # else{x.innerHTML = "Sentinel Participants Active Communications Enterprise";}
 }  
+
  function ausspocClick() {
   document.getElementById("main").innerHTML = "AUSSPOC";
   alert("You cliked AUSSPOC");
