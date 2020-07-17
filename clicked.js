@@ -1,4 +1,4 @@
-function click(var title){  
+function click(title){  
  x = document.getElementById("title");
  if(title == "ausspoc"){x.innerHTML = "AUSSPOC";}
  else if(title == "canspoc"){x.innerHTML = "CANSpOC";}
