@@ -2,49 +2,77 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="main.css">
-<script type="text/javascript" src="clicked.js"></script>  
-    
+<script type="text/javascript" src="clicked.js"></script>
+
 <nav>
- <div class="topnav">
-  <a id="ausspoc" href="Javascript:click();">AUSSpOC</a> 
-  <a id="canspoc" href="#"> CANSpOC</a>
-  <a href="#">COSMOS</a>
-  <a href="#">CSpOC</a>
-  <a href="#">GSSAC</a>
-  <a href="#">ISoC</a>
-  <a href="#">JAXA</a>
-  <a href="#">KASI</a>
-  <a href="#">S3TOC</a>
-</div>  
+    <div class="topnav">
+        <a id="main" href="Javascript:click('main');"> SPACE </a>
+        <a id="ausspoc" href="Javascript:click('ausspoc');">AUSSpOC</a>
+        <a id="canspoc" href="Javascript:click('canspoc');"> CANSpOC</a>
+        <a href="Javascript:click('cosmos');">COSMOS</a>
+        <a href="Javascript:click('cspoc');">CSpOC</a>
+        <a href="Javascript:click('gssac');">GSSAC</a>
+        <a href="Javascript:click('isoc');">ISoC</a>
+        <a href="Javascript:click('jaxa');">JAXA</a>
+        <a href="Javascript:click('kasi');">KASI</a>
+        <a href="Javascript:click('s3toc');">S3TOC</a>
+    </div>
 </nav>
 
 <body>
-       <h1 id="title">Sentinel Participants Active Communications Enterprise</h1>
-  <p> 3 </p>
- <p id="main"> </p>
- 
-
+<h1 id="title" onclick="click()"> Sentinel Participants Active Communications Enterprise</h1>
 <div class="space">
- <div class="hero-image"> </div>
- <div class="article1"> 
-<h1> About S.P.A.C.E </h1> 
+    <div class="hero-image"></div>
+
+    <div class="article1">
+    <table class="left">
+        <tr> <th colspan="2" id="topleft-th"></th></tr>
+        <tr><th class="thleft" id="left-th1"></th> <td>  </td></tr>
+        <tr><th class="thleft" id="left-th2"></th> <td>  </td> </tr>
+        <tr><th class="thleft" id="left-th3"></th> <td>  </td> </tr>
+        <tr><th class="thleft" id="left-th4"></th> <td>  </td></tr>
+        <tr><th class="thleft" id="left-th5"></th> <td>  </td></tr>
+        <tr><th class="thleft" id="left-th6"></th> <td>  </td></tr>
+    </table>
+    <table class="right">
+
+        <tr> <th id="topright-th"></th>
+
+    </table>
+    </div>
+
+    <div class="article 2">
+
+        <tr><th colspan="3" class="left"> Comms/Data </th></tr>
+
+    </div>
+    <div class="article3">
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ullamcorper
- velit. Curabitur varius libero urna, quis commodo ex faucibus ac. Aenean enim 
-libero, fermentum vitae fringilla et, vehicula in dolor. Vivamus neque est, 
-interdum quis nulla quis, efficitur cursus libero. Orci varius natoque penatibus 
-et magnis dis parturient montes, nascetur ridiculus mus. Curabitur bibendum, 
-nunc quis vulputate sagittis, eros ex tempor purus, non vestibulum justo lectus 
-nec tellus. Vivamus suscipit ex scelerisque urna suscipit, sit amet luctus neque 
-tempor. Cras pulvinar eget lorem vel auctor. Integer pulvinar orci est, eget
- vehicula felis tempor nec. Nam imperdiet velit vel ornare elementum.
 
-</div>
- </div>
+
+
+
+    </div>
+    <div class="article4">
+        <h1 id="p1head"> About S.P.A.C.E </h1>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ullamcorper
+        velit. Curabitur varius libero urna, quis commodo ex faucibus ac. Aenean enim
+        libero, fermentum vitae fringilla et, vehicula in dolor. Vivamus neque est,
+        interdum quis nulla quis, efficitur cursus libero. Orci varius natoque penatibus
+        et magnis dis parturient montes, nascetur ridiculus mus. Curabitur bibendum,
+        nunc quis vulputate sagittis, eros ex tempor purus, non vestibulum justo lectus
+        nec tellus. Vivamus suscipit ex scelerisque urna suscipit, sit amet luctus neque
+        tempor. Cras pulvinar eget lorem vel auctor. Integer pulvinar orci est, eget
+        vehicula felis tempor nec. Nam imperdiet velit vel ornare elementum.
+        </p>
+    </div>
+    </div>
+
 <footer>
-  <p>Author: Cpl Winters & SSgt Loli<br>
-  <a href="mailto:hege@example.com">neveremailusplease@example.com</a></p>
+    <p>Author: Cpl Winters & SSgt Loli<br>
+        <a href="mailto:hege@example.com">neveremailusplease@example.com</a></p>
 </footer>
 
 </body>
