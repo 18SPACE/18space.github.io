@@ -35,6 +35,10 @@ function click(title) {
     } else if (title === 'cspoc') {
         x.innerHTML = "CSpOC"
         a.innerHTML = "About CSpOC";
+        
+    } else if(title === 'ukspoc'){
+        x.innerHTML = "UKSpOC"
+        a.innerHTML = "About UKSpOC"
     } else if (title === 'gssac') {
         x.innerHTML = "GSSAC"
         a.innerHTML = "About GSSAC";
